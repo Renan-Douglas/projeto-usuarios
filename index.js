@@ -1,6 +1,8 @@
-var nome = document.querySelector("#exampleInputName");
+let nome = document.querySelector("#exampleInputName")
 
-nome.value = "Hello world";
-nome.style.color = "blue"
-nome.style.background = 'red'
+nome.value = 'Renan Douglas Ferreira Bimbato'
+nome.style.color = 'lightgreen'
+nome.style.background = 'orange'
 nome.style.cursor = 'pointer'
+
+let genero = 
