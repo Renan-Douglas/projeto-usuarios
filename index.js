@@ -1,8 +1,8 @@
 let nome = document.querySelector("#exampleInputName")
-
-nome.value = 'Renan Douglas Ferreira Bimbato'
-nome.style.color = 'lightgreen'
-nome.style.background = 'orange'
-nome.style.cursor = 'pointer'
-
-let genero = 
+let genero = document.querySelectorAll("#form-user-create [name=gender]:checked")
+let nascimento = document.querySelector("#exampleInputBirth")
+let pais = document.querySelector("#exampleInputCountry")
+let email = document.querySelector("#exampleInputEmail")
+let senha = document.querySelector("#exampleInputPassword")
+let foto = document.querySelector("#exampleInputFile")
+let admin = document.querySelector("#exampleInputAdmin")
