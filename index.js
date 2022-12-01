@@ -21,3 +21,7 @@ fields.forEach(function(field, index){
 });
 
 console.log(user)
+
+let corpo = document.getElementsByClassName('wrapper')
+
+corpo.style.background = 'red'
