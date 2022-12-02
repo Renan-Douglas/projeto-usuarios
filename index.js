@@ -8,13 +8,13 @@ fields.forEach(function(field, index){
 
         if (field.checked /*=== true*/) {
 
-        user[field.name] = field.value
+            user[field.name] = field.value
 
         }
 
     } else {
 
-        user[field.name] = field.value
+            user[field.name] = field.value
 
     }
     
